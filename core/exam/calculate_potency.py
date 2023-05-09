@@ -490,7 +490,7 @@ def setPotency(seed=None):
         delta_H = round(delta_H, 2)
         answer += "$$\n\Delta{H}=\\frac{2(1.5{\\nu_s}D+0.01Q_{h})}{\overline{u}}\\\\=\\frac{2(1.5{\\frac{Q_v}{\pi{D}^2/4}}D+0.01Q_{h})}{\overline{u}}\\\\=\\frac{2{\\times}(1.5{\\times}{\\frac{%s}{\pi{\\times}{%s}^2/4}}{\\times}%s+0.01{\\times}%s)}{%s}=%sm\n$$\n" % (f_Q_v, D, D, Q_h, u_a, delta_H)
     else:
-        answer += f"$$\n$Q_h={Q_h}kJ/s>500\\times4.18=2090kJ/s$\n$$\n"
+        answer += f"$$\n$Q_h={Q_h}kJ/s>500\\times4.18=2090kJ/s\n$$\n"
         answer += "- 采用公式（2-2）进行计算：\n"
         if 2100 <= Q_h < 21000:
             n_0 = 0.332
