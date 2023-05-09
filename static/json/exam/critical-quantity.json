@@ -1,0 +1,1266 @@
+[
+  {
+    "name": "梯恩梯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "过氯酸铵",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "硝铵",
+    "critical_quantity": 50.0
+  },
+  {
+    "name": "氢[液化的]",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "一氧化碳",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "硫化氢",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "甲烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "乙烷",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "丙烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "丁烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "异丁烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "新戊烷",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "环丙烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "乙烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "丙烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "1-丁烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "顺-2-丁烯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "异丁烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "丙二烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "联乙烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "间戊二烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "乙炔",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "1-丁炔",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "氟里昂-152",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氟乙烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "偏二氟乙烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "全氟乙烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氯三氟乙烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "乙基氯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氯乙烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氧丙环",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "甲醚",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "甲基乙烯醚",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "甲胺溶液",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "二甲胺溶液",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "三甲胺溶液",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "乙胺",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "甲硫醇",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "二硼烷",
+    "critical_quantity": 1.0
+  },
+  {
+    "name": "硅烷",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "压凝汽油",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "盐酸",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "氯化硼",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "氟",
+    "critical_quantity": 0.5
+  },
+  {
+    "name": "氯",
+    "critical_quantity": 1.0
+  },
+  {
+    "name": "氨",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "溴化氢",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "膦",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "胂",
+    "critical_quantity": 0.5
+  },
+  {
+    "name": "硒化氢",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "氧化氮",
+    "critical_quantity": 0.5
+  },
+  {
+    "name": "四氧化二氮",
+    "critical_quantity": 1.0
+  },
+  {
+    "name": "二氧化硫",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "氟化硼",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "四氟化硫",
+    "critical_quantity": 1.0
+  },
+  {
+    "name": "氯化氰",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "羰基硫",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "光气",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "氯甲烷",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "甲基溴",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "二氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "戊烷",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "异戊烷",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "环己烷",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "己烷",
+    "critical_quantity": 500.0
+  },
+  {
+    "name": "正戊烯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "γ-异戊烯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "异丙基乙烯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "异戊二烯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "氯代丁二烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "异丙基氯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "2-氯丙烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "烯丙基氯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "醋醛",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "异丁醛",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "烯丙醛",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "丙酮",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "乙醚",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "乙烯基乙醚",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "甲缩醛",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "氧化丙烯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "甲硫醚",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "乙硫醇",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "蚁酸甲酯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "呋喃",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "异丙胺",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "烯丙胺",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "四甲基硅",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "二硫化碳",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "石油精",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "二氯乙烷(对称)",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "二氯化丙烯",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "偏二氯乙烯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "苯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "甲苯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "乙苯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "木精",
+    "critical_quantity": 500.0
+  },
+  {
+    "name": "乙醇",
+    "critical_quantity": 500.0
+  },
+  {
+    "name": "异丙醇",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "蒜醇",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "巴豆醛",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "甲乙酮",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "甲基叔丁基醚",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氯甲基甲醚",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "哌啶",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "氯乙酰",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "丙酰氯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "丁酰氯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氯异丁酰",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "醋酸甲酯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "醋酸乙酯",
+    "critical_quantity": 500.0
+  },
+  {
+    "name": "乙酸丙酯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "乙酸乙烯",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "牙托水",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氯甲酸甲酯",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "氯甲酸异丙酯",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "乙腈",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "丙腈",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "异丁腈",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "氰基乙烯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "异丁烯腈",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "异氰酸甲酯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "叔丁胺",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "丙烯亚胺",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "甲肼",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "1,1-二甲基肼",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "甲基三氯硅烷",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "二甲基二氯硅烷",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "三甲基氯硅烷",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "乙基三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "三氯乙烯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "邻二甲苯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "间二甲苯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "对二甲苯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "苯乙烯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "氯苯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "丁醇",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "糠醛",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "二乙烯酮",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "环己酮",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "丙烯酸正丁酯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "甲酰二甲胺",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "无水肼",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "萘",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "二甲苯麝香",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "仲甲醛",
+    "critical_quantity": 1.0
+  },
+  {
+    "name": "硫氢化钠",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "低亚硫酸钾",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "亚硫酸氢钙",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氮化锂",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "磷化钙",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "磷化铝",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "五硫化磷",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "三氟化硼甲醚络合物",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "硅仿",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "甲基二氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "乙基二氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "连二亚硫酸锌",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "三氟化溴",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "五氟化碘",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "氯酸钠",
+    "critical_quantity": 100.0
+  },
+  {
+    "name": "白药粉",
+    "critical_quantity": 100.0
+  },
+  {
+    "name": "硝酸铅",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "二氯异氰尿酸钠",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "三氯异氰尿酸",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "铬酐",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "红矾钾",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "硝酸钴",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "过乙酸",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "山奈",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "氰化钾",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "氰化钾镍",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "银氰化钾",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "氰化亚铜",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "氰化溴",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "氰化氢",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "砷",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "白砒",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "亚砷酸钠水溶液",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "五氧化砷",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "三氯化砷",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "硒化镉",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "254231",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "锇酸酐",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "氰丙醇",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "全氯甲硫醇",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "乙酸汞",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "硝酸苯汞",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "氧化二丁基锡",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "四乙基铅",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "氯甲酸丙酯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "双光气",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "氯乙酸甲酯",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "硫氰酸甲酯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "2,4-二异氰酸甲苯酯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "硫酸甲酯",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "敌死通",
+    "critical_quantity": 0.5
+  },
+  {
+    "name": "硫丹",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "龙汞",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "碲化镉",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "黄丹",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "红丹",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "白降汞",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "溴化亚汞",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "红降汞",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "氟化铅",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "二氯甲烷",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "氯仿",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "四氯甲烷",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "甲基碘",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "三氯乙烯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "全氯乙烯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "全氯丁二烯",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "氯乙醇",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氯丙酮",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "己二腈",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "苄氰",
+    "critical_quantity": 1.0
+  },
+  {
+    "name": "邻二氯苯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "对二氯苯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "连三氯苯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "1,2,4-三氯苯",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "1,2,4,5-四氯苯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "2,6-二氯甲苯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "3,4-二氯甲苯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "2,4-二硝基甲苯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "对硝基氯苯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "硝基五氯苯",
+    "critical_quantity": 0.5
+  },
+  {
+    "name": "2,4-二硝基氯苯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "2,4-二氯酚",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "苯胺",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "邻甲苯胺",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "N-甲基苯胺",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "邻氯苯胺",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "2,4,6-三溴苯胺",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "对硝基苯胺",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "苯醌",
+    "critical_quantity": 1.0
+  },
+  {
+    "name": "二月桂酸二丁基锡",
+    "critical_quantity": 0.5
+  },
+  {
+    "name": "敌敌畏",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "乐果",
+    "critical_quantity": 1.0
+  },
+  {
+    "name": "杀虫灵",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "马拉松",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "氯硝胺",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "六氯苯",
+    "critical_quantity": 1.0
+  },
+  {
+    "name": "赛欧散",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "毒菌锡",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "百草枯",
+    "critical_quantity": 1.0
+  },
+  {
+    "name": "乙草胺",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "草不绿",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "兴棉宝",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "硝酸",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "发烟硫酸",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "硫酸",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "硫酸酐",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "亚硝酰硫酸",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "氢氟酸",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "溴",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "氯磺酸",
+    "critical_quantity": 0.5
+  },
+  {
+    "name": "氟磺酸",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "硅氟酸",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "铬酸溶液",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "一氯化硫",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "二氯化硫",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "硫酰氯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氯化亚砜",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "铬酰氯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "磷酰氯",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "三氯化磷",
+    "critical_quantity": 7.5
+  },
+  {
+    "name": "氯化磷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氯化硅",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氯化铝溶液",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氯化钛",
+    "critical_quantity": 1.0
+  },
+  {
+    "name": "三溴化磷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "五溴化磷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "溴化铝溶液",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "溴化硼",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "五氟化锑",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "硫酸铅",
+    "critical_quantity": 0.25
+  },
+  {
+    "name": "磷酸酐",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "甲酸",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "乙酰溴",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "碘乙酰",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "二氯乙酰氯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "苯甲酰氯",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "三氯丙基硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "丁基三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "戊基三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "己基三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "辛基三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "壬基三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "三氯十二烷基硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "十六烷基三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "十八烷基三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "二氯苯基三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氯苯基三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "苯代三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "2-丙烯基三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "环己三氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "二乙基二氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "甲基苯基二氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "乙基苯基二氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "二苯二氯硅烷",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "磷酸",
+    "critical_quantity": 2.5
+  },
+  {
+    "name": "亚硫酸氢钙",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "亚硫酸氢钾",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "乙酸",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "醋酸酐",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "氯醋酸",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "氰尿酰氯",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "环己胺",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "乙二胺",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "氨水",
+    "critical_quantity": 10.0
+  },
+  {
+    "name": "甲醛溶液",
+    "critical_quantity": 0.5
+  },
+  {
+    "name": "蒽",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "次氯酸钠溶液",
+    "critical_quantity": 5.0
+  },
+  {
+    "name": "汞",
+    "critical_quantity": 0.5
+  },
+  {
+    "name": "萤蒽",
+    "critical_quantity": 0.5
+  }
+]
