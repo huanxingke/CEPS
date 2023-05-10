@@ -12,8 +12,8 @@ from conf.menu import menu_items
 
 
 # ---------- Start:每页基础配置 ---------- #
-st.set_page_config(page_title="关于", page_icon="❔", layout="wide", menu_items=menu_items)
-st.markdown("### ❔ 关于")
+st.set_page_config(page_title="个人信息", page_icon="👤", layout="wide", menu_items=menu_items)
+st.markdown("### 👤 个人信息")
 initUserConfig()
 # ---------- End:每页基础配置 ---------- #
 
