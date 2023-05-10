@@ -1,1 +1,0 @@
-pyuic5 -o app.py app.ui
