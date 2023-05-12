@@ -54,14 +54,17 @@ def gradePaper(examinee_answer_compress):
     for examinee_choices_answer_index, examinee_choices_answer in enumerate(examinee_choices_answers):
         choices_grade = 0
         correct_choices_answer = correct_choices_answers[examinee_choices_answer_index]
-        for choices_answer in examinee_choices_answer:
-            if choices_answer not in correct_choices_answer:
-                choices_grade = 0
-                break
-            else:
-                choices_grade += 1
-        if choices_grade > 5:
+        if sorted(correct_choices_answer) == sorted(examinee_choices_answer):
             choices_grade = 5
+        else:
+            for choices_answer in examinee_choices_answer:
+                if choices_answer not in correct_choices_answer:
+                    choices_grade = 0
+                    break
+                else:
+                    choices_grade += 1
+            if choices_grade > 5:
+                choices_grade = 5
         grades["total"] += 5
         grades["examinee"] += choices_grade
         grades["choices"] += choices_grade
