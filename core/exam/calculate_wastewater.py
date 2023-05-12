@@ -153,13 +153,22 @@ def setWasteWaterQuestion(seed=None):
     # 设置随机数种子
     if seed:
         random.seed(seed)
+    # --- 1、确定题目已知量 --- #
+    # 确定火灾持续时间
     duration, building_description, height = setDuration()
+    # 确定室内外消防栓流量
     outdoor_hydrant_flow, indoor_hydrant_flow, hydrant_description = setHydrantFlow()
+    # 确定室外市政消防栓流量
     no_outdoor, has_hydrant, distance, hydrant_flow, municipal_hydrant_flow_description = setMunicipalHydrantFlow()
+    # 确定室外市政消防栓流量
     chosen_systems, chosen_systems_flows, max_auto_fire_extinguishing_system_flow, system_description = setAutoFireExtinguishingSystemFlow()
+    # 确定水幕系统水流量
     has_water_curtain, water_curtain_flow, water_curtain_usage, water_curtain_description = setWaterCurtainFlow()
+    # 确定室内消防栓设计流量是否折减
     indoor_hydrant_flow_reduction = setIndoorHydrantFlowReduction(indoor_hydrant_flow, height, chosen_systems)
+    # 确定补水量
     supply_water_roads, supply_water_flows, min_supply_water_flows, supply_water_description = setSupplyWaterFlow()
+    # --- 2、生成题目 --- #
     question = (building_description + "，")
     question += (hydrant_description + "。")
     if system_description:
@@ -174,8 +183,11 @@ def setWasteWaterQuestion(seed=None):
         question += "求该建筑消防水池最小有效容积。\n（考虑折减，计算中间数据以及最终结果均保留小数点后两位，单位为$m^3$）"
     else:
         question += "求该建筑消防水池最小有效容积和发生事故时在设计流量下的消防水量。\n（考虑折减，计算中间数据以及最终结果均保留小数点后两位，单位为$m^3$）"
+    # --- 3、生成解析 --- #
     calculation_process = "解析："
+    # --- 3.1、火灾持续时间 --- #
     calculation_process += "\n（1）首先查表确定火灾延续时间：\n$$\nt={}h\n$$".format(duration)
+    # --- 3.2、室外消防栓用水量 --- #
     calculation_process += "\n（2）计算室外消防栓用水量$q_1$，"
     if no_outdoor:
         q_1 = 0
@@ -205,6 +217,7 @@ def setWasteWaterQuestion(seed=None):
             calculation_process += "\n则：\n$$\nq_1=q'_1-q_o={}-{}={}m^3\n$$".format(
                 q_1_, q_o, q_1
             )
+    # --- 3.3、室内消防栓用水量 --- #
     calculation_process += "\n（3）计算室内消防栓用水量$q_2$，"
     if indoor_hydrant_flow_reduction > 0:
         q_2 = round(3.6 * (indoor_hydrant_flow - indoor_hydrant_flow_reduction) * duration, 2)
@@ -218,6 +231,7 @@ def setWasteWaterQuestion(seed=None):
         calculation_process += "由题目可知，该建筑不符合折减的情况，则：\n$$\nq_2=3.6\\times{}\\times{}={}m^3\n$$".format(
             indoor_hydrant_flow, duration, q_2
         )
+    # --- 3.4、自动喷水灭火系统用水量 --- #
     calculation_process += "\n（4）计算自动喷水灭火系统的用水量$q_3$，"
     if len(chosen_systems) == 0:
         q_3 = 0
@@ -226,6 +240,7 @@ def setWasteWaterQuestion(seed=None):
         q_3 = round(3.6 * max_auto_fire_extinguishing_system_flow * 1, 2)
         calculation_process += "取自喷系统中最大的用水流量，且自喷系统用水时间为$1h$，则："
         calculation_process += "\n$$\nq_3=3.6\\times{}\\times1={}m^3\n$$".format(max_auto_fire_extinguishing_system_flow, q_3)
+    # --- 3.5、水幕系统用水量 --- #
     calculation_process += "\n（5）计算水幕系统的用水量$q_4$，"
     if not has_water_curtain:
         q_4 = 0
@@ -241,6 +256,7 @@ def setWasteWaterQuestion(seed=None):
             calculation_process += "因水幕是对防火玻璃墙进行冷却，所以按$1.0h$：\n$$\nq_4=3.6\\times{}\\times1={}m^3\n$$".format(
                 water_curtain_flow, q_4
             )
+    # --- 3.6、补水量 --- #
     calculation_process += "\n（6）计算补水量$q_5$，"
     if supply_water_roads == 0:
         q_5 = 0
@@ -255,11 +271,13 @@ def setWasteWaterQuestion(seed=None):
         )
     q_w = round(q_1 + q_2 + q_3 + q_4 + q_o, 2)
     q_m = round(q_1 + q_2 + q_3 + q_4 - q_5, 2)
+    # --- 3.7、消防水池最小有效容积 --- #
     calculation_process += "\n（7）消防水池最小有效容积：\n$$\nq_m=q_1+q_2+q_3+q_4-q_5\\\\={}+{}+{}+{}-{}={}m^3\n$$".format(
         q_1, q_2, q_3, q_4, q_5, q_m
     )
     if q_m <= 0:
         calculation_process += "\n也即该建筑理论上可不建设消防水池。"
+    # --- 3.8、消防水量 --- #
     if not no_outdoor:
         if q_o == 0:
             calculation_process += "\n（8）消防水量：\n$$\nq_w=q_1+q_2+q_3+q_4\\\\={}+{}+{}+{}={}m^3\n$$".format(
