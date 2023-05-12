@@ -103,8 +103,10 @@ def pageStyle():
             }
             
             //(1)修改底部说明为华工
-            var footer = root_document.find("footer");
-            footer.html("<p style='height:20px;line-height:20px;font-size=20px'><img src='https://www.scut.edu.cn/_upload/article/images/93/f1/da8bef494e929b2303b75fcae24a/76c44c1f-cc13-4b1c-b69c-1cb9e8e8aa3a.png' style='border-radius:50%%;height:20px'/>&nbsp;South China University of Technology</p>")
+            try {
+                var footer = root_document.find("footer");
+                footer.html("<p style='height:20px;line-height:20px;font-size=20px'><img src='https://www.scut.edu.cn/_upload/article/images/93/f1/da8bef494e929b2303b75fcae24a/76c44c1f-cc13-4b1c-b69c-1cb9e8e8aa3a.png' style='border-radius:50%%;height:20px'/>&nbsp;South China University of Technology</p>")
+            } catch {}
             
             //(2)修改页面边距, 只更改电脑端的
             if (isMobile() == false) {
