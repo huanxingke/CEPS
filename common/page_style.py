@@ -86,27 +86,33 @@ def pageStyle():
             //获取根文档
             var root_document = $(window.frameElement).parents().find("#root");
             
-            //进度条功能区删除
-            var progress_box = $(window.frameElement).parents().find("#root").find("#progress-box");
-            if (progress_box.length > 0) {
-                progress_box.remove();
-            }
-            //计时器删除
-            var timer_box = $(window.frameElement).parents().find("#root").find("#timer-box");
-            if (timer_box.length > 0) {
-                timer_box.remove();
-            }
-            //清除计时器
-            var exam_timer = JSON.parse(Base64.decode($.cookie("exam_timer")));
-            if (exam_timer.timer) {
-                window.top.clearInterval(exam_timer.timer);
+            try {
+                //进度条功能区删除
+                var progress_box = $(window.frameElement).parents().find("#root").find("#progress-box");
+                if (progress_box.length > 0) {
+                    progress_box.remove();
+                }
+                //计时器删除
+                var timer_box = $(window.frameElement).parents().find("#root").find("#timer-box");
+                if (timer_box.length > 0) {
+                    timer_box.remove();
+                }
+                //清除计时器
+                var exam_timer = JSON.parse(Base64.decode($.cookie("exam_timer")));
+                if (exam_timer.timer) {
+                    window.top.clearInterval(exam_timer.timer);
+                }
+            } catch(err) {
+                console.log(err)
             }
             
             //(1)修改底部说明为华工
             try {
                 var footer = root_document.find("footer");
                 footer.html("<p style='height:20px;line-height:20px;font-size=20px'><img src='https://www.scut.edu.cn/_upload/article/images/93/f1/da8bef494e929b2303b75fcae24a/76c44c1f-cc13-4b1c-b69c-1cb9e8e8aa3a.png' style='border-radius:50%%;height:20px'/>&nbsp;South China University of Technology</p>")
-            } catch {}
+            } catch(err) {
+                console.log(err)
+            }
             
             //(2)修改页面边距, 只更改电脑端的
             if (isMobile() == false) {
