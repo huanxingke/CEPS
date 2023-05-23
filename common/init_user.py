@@ -46,6 +46,8 @@ def initUserConfig():
             st.session_state.user = user
             # 保存坚果云会话于应用会话
             st.session_state.jgy = new_jgy
+            return True
+        return False
 
     def getUserData(param):
         """获取用户数据"""
@@ -136,7 +138,10 @@ def initUserConfig():
 
     # ****** 自动获取配置 ****** #
     # 获取本地坚果云配置并尝试自动登录
-    autoLogin()
+    login_status = autoLogin()
+    for i in range(2):
+        if not login_status:
+            login_status = autoLogin()
     # 获取用户个人信息
     getUserData(param="userinfo")
     # 获取标记的化学品
