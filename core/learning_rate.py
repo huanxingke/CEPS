@@ -1,6 +1,6 @@
 # coding=utf8
 """
-核心组件: 学习进度
+核心组件: 学习进度记录
 """
 import time
 

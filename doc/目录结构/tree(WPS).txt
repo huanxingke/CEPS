@@ -1,0 +1,73 @@
+CEPS-Project                             项目目录
+   ├──common                             ├──通用组件
+   │  ├──action_button.py               │  ├──页面右上方按钮
+   │  ├──alert.py                       │  ├──弹窗通知
+   │  ├──hide_iframe.py                 │  ├──隐藏自定义的 iframe
+   │  ├──init_user.py                   │  ├──初始化页面数据
+   │  ├──page_style.py                  │  ├──页面样式
+   │  └──refresh.py                     │  └──刷新页面
+   ├──conf                               ├──配置文件
+   │  ├──cdn.py                         │  ├──JS CDN 链接
+   │  ├──menu.py                        │  ├──右上角菜单栏 About 内容
+   │  └──path.py                        │  └──文件(夹)路径
+   ├──core                               ├──核心代码
+   │  ├──exam                           │  ├──考试系统
+   │  │  ├──calculate_leakage.py       │  │  ├──泄漏量计算
+   │  │  ├──calculate_pool.py          │  │  ├──事故应急池计算
+   │  │  ├──calculate_potency.py       │  │  ├──落地浓度计算
+   │  │  ├──calculate_Q.py             │  │  ├──企业 Q 值计算
+   │  │  ├──calculate_wastewater.py    │  │  ├──消防废水计算
+   │  │  ├──set_choices.py             │  │  ├──选择题与判断题
+   │  │  ├──set_completions.py         │  │  ├──填空题
+   │  │  ├──init_paper.py              │  │  ├──生成试卷
+   │  │  └──grade_paper.py             │  │  └──批改试卷
+   │  ├──case_card.py                   │  ├──环境风险事故案例卡片
+   │  ├──chemical_card.py               │  ├──化学品卡片
+   │  ├──learning_rate.py               │  ├──学习进度记录
+   │  ├──query_cases.py                 │  ├──检索环境风险事故案例
+   │  ├──query_chemicals.py             │  ├──检索化学品
+   │  ├──set_plans.py                   │  ├──生成应急演练题目
+   │  └──timer.py                       │  └──计时器
+   ├──data_source                        ├──本软件数据来源
+   │  ├──exam                           │  ├──考试系统
+   │  │  ├──static                     │  │  ├──静态数据文件夹
+   │  │  ├──excel2json.py              │  │  ├──将 excel 内容转为 json
+   │  │  └──initCriticalQuantity.py    │  │  └──生成临界量 json 文件
+   │  ├──exe                            │  ├──生成单机版软件
+   │  │  ├──app.py                     │  │  ├──UI 界面代码
+   │  │  ├──main.py                    │  │  ├──单机版程序主代码
+   │  │  └──pix2py.py                  │  │  └──将图片转为 base64 编码
+   │  ├──similar                        │  ├──模糊检索模型
+   │  │  ├──cases                      │  │  ├──环境风险事故案例
+   │  │  │  └──similar.py             │  │  │  └──生成模糊检索模型
+   │  │  └──chemicals                  │  │  └──常见危险化学品
+   │  │     └──similar.py              │  │     └──生成模糊检索模型
+   │  └──spider                         │  └──爬虫项目
+   │     ├──static                      │     ├──静态数据文件夹
+   │     ├──database.py                 │     ├──数据库操作
+   │     ├──excel_manager.py            │     ├──excel 文件操作
+   │     ├──fake_request.py             │     ├──虚拟请求
+   │     ├──pic_processor.py            │     ├──图片裁剪
+   │     ├──process_json.py             │     ├──整理 JSON 文件数据
+   │     └──spider.py                   │     └──爬虫主代码
+   ├──doc                                ├──软件说明书目录
+   ├──lib                                ├──自建库
+   │  ├──CookieManager                  │  ├──双向 cookie 管理器
+   │  │  ├──frontend                   │  │  ├──react 项目
+   │  │  └──__init__.py                │  │  └──双向 cookie 管理器 API
+   │  ├──Webdav                         │  ├──Webdav 库
+   │  │  ├──webdav4Mod                 │  │  ├──修改过的三方库 webdav4
+   │  │  │  └──client.py              │  │  │  └──修改的文件
+   │  │  └──__init__.py                │  │  └──Webdav API
+   │  └──JSCookieManager.py             │  └──单向 cookie 管理器
+   ├──pages                              ├──本软件页面
+   │  ├──1_❔_关于.py                   │  ├──本软件开发者信息页面
+   │  ├──2_👤_个人信息.py                │  ├──用户自定义个人信息页面
+   │  ├──3_🧪_常见危化品.py              │  ├──常见危化品检索页面
+   │  ├──4_🌏_环境风险事故案例.py        │  ├──环境风险事故案例检索页面
+   │  ├──5_📖_知识学习模块.py            │  ├──知识学习页面
+   │  ├──6_💯_知识考试模块.py            │  ├──知识考试页面
+   │  └──7_🗒️_应急演练模块.py            │  └──应急演练页面
+   ├──static                             ├──静态数据文件夹
+   ├──CEPS.py                            ├──程序入口文件（首页）
+   └──requirements.txt                   └──所需要安装的第三方库

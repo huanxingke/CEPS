@@ -4,7 +4,7 @@
 """
 
 menu_items = {
-    "Get Help": "https://github.com/huanxingke/Dissertation",
+    "Get Help": "https://github.com/huanxingke/CEPS",
     "Report a bug": None,
     "About": """
         #### 化工类企业环境事故应急预案演练计算机模拟仿真系统

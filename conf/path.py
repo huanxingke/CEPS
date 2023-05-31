@@ -1,6 +1,6 @@
 # coding=utf8
 """
-配置: 一些路径
+配置: 文件(夹)路径
 """
 from pathlib import Path
 import os
